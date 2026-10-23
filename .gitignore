@@ -1,0 +1,5 @@
+.env
+banco_simulado/
+processed_uids.json
+amostras/
+__pycache__/
