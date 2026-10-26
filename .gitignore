@@ -1,6 +1,22 @@
+# Credenciais — nunca versionar
 .env
-banco_simulado/
-processed_uids.json
-amostras/
-__pycache__/
+
+# Ambiente virtual e caches de Python
 .venv/
+__pycache__/
+*.pyc
+
+# Build/empacotamento
+dist/
+build/
+*.egg-info/
+
+# Estado de execução (gerado pelo sistema a cada ciclo)
+processados.txt
+historico.jsonl
+
+# IDE / SO
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
