@@ -3,3 +3,4 @@ banco_simulado/
 processed_uids.json
 amostras/
 __pycache__/
+.venv/
